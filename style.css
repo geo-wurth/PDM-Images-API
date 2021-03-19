@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body,
+.root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.js-escondido {
+    display: none !important;
+}
+
+body,
+.app {
+    background: #b8b8b8;
+}
+
+.listaFotos {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.listaFotos-item {
+    padding: 20px;
+    background: rgb(232, 232, 232);
+    display: flex;
+}
+
+@media (min-width: 600px) {
+    .listaFotos-item {
+        margin: 20px;
+        border: 1px solid #d5d8df;
+        border-radius: 4px;
+    }
+}
+
+.titulo
+{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.loader 
+{
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+
+.loader span
+{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -150px;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+}
+
+.card
+{
+    background-color: transparent;
+}
